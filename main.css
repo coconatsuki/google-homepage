@@ -4,6 +4,12 @@ ul {
 body, td, a, p, .h {
     font-family: arial,sans-serif;
 }
+a {
+  text-decoration: none;
+  }
+a:hover {
+    text-decoration: underline;
+  }
 nav {
   height: 72px;
   }
@@ -113,6 +119,7 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
 li.image {
   display: inline-block;
   width: 30px;
@@ -168,13 +175,15 @@ header p {
   line-height: 28px;
   font-size: small;
 }
-
+footer a {
+  color: #666;
+}
 footer li {
   display: inline;
   vertical-align: middle;
   font-size: 10pt;
-  color: #666;
   margin: 0 15px;
+  color: #666;
   }
 .leftfooter, .rightfooter {
   display: inline;
